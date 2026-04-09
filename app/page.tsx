@@ -3,13 +3,13 @@
 import { useState } from "react";
 
 const produtos = [
-  { id: 1, nome: "Panados de Frango", emoji: "🍗", precoDuzia: 6.50 },
+  { id: 1, nome: "Panados de Frango", emoji: "🍗", precoDuzia: 7.00 },
   { id: 2, nome: "Panados de Porco", emoji: "🥩", precoDuzia: 7.00 },
-  { id: 3, nome: "Rissóis de Carne", emoji: "🥟", precoDuzia: 3.00 },
+  { id: 3, nome: "Rissóis de Carne", emoji: "🥟", precoDuzia: 3.50 },
   { id: 5, nome: "Rissóis de Frango", emoji: "🍗", precoDuzia: 3.00 },
   { id: 6, nome: "Rissóis Misto", emoji: "🥟", precoDuzia: 3.00 },
-  { id: 7, nome: "Rissóis de Cachorro", emoji: "🌭", precoDuzia: 3.20 },
-  { id: 4, nome: "Croquetes", emoji: "🟤", precoDuzia: 3.80 },
+  { id: 7, nome: "Rissóis de Cachorro", emoji: "🌭", precoDuzia: 3.00 },
+  { id: 4, nome: "Croquetes", emoji: "🟤", precoDuzia: 3.50 },
 ];
 
 type Carrinho = Record<number, number>;
