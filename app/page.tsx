@@ -10,6 +10,7 @@ const produtos = [
   { id: 6, nome: "Rissóis Misto", emoji: "🥟", precoDuzia: 3.00 },
   { id: 7, nome: "Rissóis de Cachorro", emoji: "🌭", precoDuzia: 3.00 },
   { id: 4, nome: "Croquetes", emoji: "🟤", precoDuzia: 3.50 },
+  
 ];
 
 type Carrinho = Record<number, number>;
